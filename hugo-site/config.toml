@@ -1,0 +1,36 @@
+baseURL = "http://asubiotto.com/"
+languageCode = "en-us"
+title = "Alfonso Subiotto"
+theme = "hello-friend-ng"
+
+[params]
+    homeSubtitle = "Operator Angel & Technical Startup Advisor"
+
+    [[params.social]]
+        name = "twitter"
+        url  = "https://twitter.com/asubiotto"
+
+    [[params.social]]
+        name = "linkedin"
+        url  = "https://linkedin.com/in/asubiotto"
+
+    [[params.social]]
+        name = "github"
+        url  = "https://github.com/asubiotto"
+
+    [[params.social]]
+        name = "email"
+        url  = "mailto:alfonsojssm+website@gmail.com"
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = "1"
+
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "about/"
+        weight = "0"
