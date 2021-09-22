@@ -2,6 +2,7 @@ baseURL = "http://asubiotto.com/"
 languageCode = "en-us"
 title = "Alfonso Subiotto"
 theme = "hello-friend-ng"
+googleAnalytics = "G-4J888DE1QK"
 
 [params]
     homeSubtitle = "Operator Angel & Technical Startup Advisor"
