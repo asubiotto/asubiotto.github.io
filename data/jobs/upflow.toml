@@ -1,0 +1,27 @@
+[[product]]
+id = "upflow-pmar"
+company = "Upflow"
+title = "Product Manager, Accounts Receivable"
+url = "https://jobs.ashbyhq.com/upflow/4d162b72-3064-49e7-9305-79ba3ef4a82a"
+locations = ["Paris, Remote (Global)"]
+
+[[product]]
+id = "upflow-pmg"
+company = "Upflow"
+title = "Product Manager, Growth"
+url = "https://jobs.ashbyhq.com/upflow/c0dd717b-0d9d-4729-96a2-bae1c60f938e"
+locations = ["Paris, Remote (Global)"]
+
+[[engineering]]
+id = "upflow-sse"
+company = "Upflow"
+title = "Staff Software Engineer"
+url = "https://jobs.ashbyhq.com/upflow/0cba4c59-b0c8-447d-b5d7-4085995dc022"
+locations = ["Paris, Remote (Global)"]
+
+[[engineering]]
+id = "upflow-sse"
+company = "Upflow"
+title = "Fullstack Engineer"
+url = "https://jobs.ashbyhq.com/upflow/852704b8-203b-4502-9425-761f653fbc79"
+locations = ["Paris, Remote (Global)"]

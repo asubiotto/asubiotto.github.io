@@ -36,9 +36,8 @@ googleAnalytics = "G-4J888DE1QK"
         url = "about/"
         weight = "0"
 
-    # TODO(asubiotto): Uncomment this when jobs page is ready for production.
-    # [[menu.main]]
-    #    identifier = "jobs"
-    #    name = "Jobs"
-    #    url = "jobs/"
-    #    weight = "0"
+    [[menu.main]]
+        identifier = "jobs"
+        name = "Jobs"
+        url = "jobs/"
+        weight = "0"

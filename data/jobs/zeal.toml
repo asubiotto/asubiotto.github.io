@@ -1,0 +1,20 @@
+[[design]]
+id = "zeal-pd"
+company = "Zeal"
+title = "Founding Product Designer"
+url = "https://www.zeal.com/careers/founding-product-designer-remote"
+locations = ["San Francisco", "Remote (US)"]
+
+[[engineering]]
+id = "zeal-sse"
+company = "Zeal"
+title = "Senior Software Engineer"
+url = "https://www.zeal.com/careers/senior-software-engineer"
+locations = ["San Francisco"]
+
+[[product]]
+id = "zeal-pm"
+company = "Zeal"
+title = "Product Manager"
+url = "https://www.zeal.com/careers/product-manager"
+locations = ["San Francisco"]

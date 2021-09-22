@@ -2,10 +2,38 @@
     <main class="post">
         <!-- Reuse the post.html partial to be able to use the jobs.md front matter -->
         {{ partial "post.html" . }}
-        {{ range .Site.Data.jobs.jobs }}
-        <ul>
-            <a href="{{ .url }}"><p>{{ .title }} / <b>{{ .company }}</b></p></a>
-        </ul>
+        <!-- 
+            I'm not going to spend more time on this, but I deliberately changed
+            the structure from k files each representing a job division to n
+            files each representing a company. In my mind, this is an easier way
+            to organize jobs and update them in the data directory. The big-O
+            doesn't really change (goes from) from O(kn) to O(nk), we're just
+            doing a bit more wasted work by ignoring other departments on each
+            loop.
+        -->
+        <h2>Engineering</h2>
+        {{ range .Site.Data.jobs }}
+            {{ range .engineering }}
+                {{ partial "job.html" . }}
+            {{ end }}
+        {{ end }}
+        <h2>Developer Relations</h2>
+        {{ range .Site.Data.jobs }}
+            {{ range .devrel }}
+                {{ partial "job.html" . }}
+            {{ end }}
+        {{ end }}
+        <h2>Design</h2>
+        {{ range .Site.Data.jobs }}
+            {{ range .design }}
+                {{ partial "job.html" . }}
+            {{ end }}
+        {{ end }}
+        <h2>Product</h2>
+        {{ range .Site.Data.jobs }}
+            {{ range .product }}
+                {{ partial "job.html" . }}
+            {{ end }}
         {{ end }}
     </main>
 {{ end }}
