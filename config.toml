@@ -34,3 +34,10 @@ theme = "hello-friend-ng"
         name = "About"
         url = "about/"
         weight = "0"
+
+    # TODO(asubiotto): Uncomment this when jobs page is ready for production.
+    # [[menu.main]]
+    #    identifier = "jobs"
+    #    name = "Jobs"
+    #    url = "jobs/"
+    #    weight = "0"

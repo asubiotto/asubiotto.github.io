@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <main class="post">
+        <!-- Reuse the post.html partial to be able to use the jobs.md front matter -->
+        {{ partial "post.html" . }}
+        {{ range .Site.Data.jobs.jobs }}
+        <ul>
+            <a href="{{ .url }}"><p>{{ .title }} / <b>{{ .company }}</b></p></a>
+        </ul>
+        {{ end }}
+    </main>
+{{ end }}

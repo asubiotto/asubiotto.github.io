@@ -1,0 +1,20 @@
+[[jobs]]
+id = "encore-sbd"
+company = "Encore"
+title = "Senior Backend Developer"
+url = "https://jobs.encore.dev/jobs/1265543-senior-backend-developer"
+locations = ["Stockholm", "Flexible Remote"]
+
+[[jobs]]
+id = "encore-dl"
+company = "Encore"
+title = "Design Lead"
+url = "https://jobs.encore.dev/jobs/1265518-design-lead"
+locations = ["Stockholm", "Flexible Remote"]
+
+[[jobs]]
+id = "encore-drl"
+company = "Encore"
+title = "Developer Relations Lead"
+url = "https://jobs.encore.dev/jobs/1265422-developer-relations-lead"
+locations = ["Stockholm", "Flexible Remote"]
