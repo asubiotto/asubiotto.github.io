@@ -34,10 +34,16 @@ googleAnalytics = "G-4J888DE1QK"
         identifier = "about"
         name = "About"
         url = "about/"
-        weight = "0"
+        weight = "2"
+
+    [[menu.main]]
+        identifier = "portfolio"
+        name = "Portfolio"
+        url = "portfolio/"
+        weight = "3"
 
     [[menu.main]]
         identifier = "jobs"
         name = "Jobs"
         url = "jobs/"
-        weight = "0"
+        weight = "4"
