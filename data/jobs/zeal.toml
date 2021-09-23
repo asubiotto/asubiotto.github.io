@@ -2,19 +2,19 @@
 id = "zeal-pd"
 company = "Zeal"
 title = "Founding Product Designer"
-url = "https://www.zeal.com/careers/founding-product-designer-remote"
+url = "https://bit.ly/3zzgxjg"
 locations = ["San Francisco", "Remote (US)"]
 
 [[engineering]]
 id = "zeal-sse"
 company = "Zeal"
 title = "Senior Software Engineer"
-url = "https://www.zeal.com/careers/senior-software-engineer"
+url = "https://bit.ly/2XMe4VY"
 locations = ["San Francisco"]
 
 [[product]]
 id = "zeal-pm"
 company = "Zeal"
 title = "Product Manager"
-url = "https://www.zeal.com/careers/product-manager"
+url = "https://bit.ly/3hZZjW9"
 locations = ["San Francisco"]
