@@ -10,6 +10,8 @@ draft: false
 
 [Privacy Dynamics](https://www.privacydynamics.io)
 
+[Shabodi](https://www.shabodi.com)
+
 [Upflow](https://www.upflow.io)
 
 [Zeal](https://www.zeal.com)
