@@ -5,7 +5,7 @@ theme = "hello-friend-ng"
 googleAnalytics = "G-4J888DE1QK"
 
 [params]
-    homeSubtitle = "Operator Angel & Technical Startup Advisor"
+    homeSubtitle = "Operator Angel"
 
     [[params.social]]
         name = "twitter"
