@@ -1,24 +1,3 @@
-[[product]]
-id = "upflow-pmar"
-company = "Upflow"
-title = "Product Manager, Accounts Receivable"
-url = "https://bit.ly/3u2OqrH"
-locations = ["Paris, Remote (Global)"]
-
-[[product]]
-id = "upflow-pmg"
-company = "Upflow"
-title = "Product Manager, Growth"
-url = "https://bit.ly/3lO7iqI"
-locations = ["Paris, Remote (Global)"]
-
-[[engineering]]
-id = "upflow-sse"
-company = "Upflow"
-title = "Staff Software Engineer"
-url = "https://bit.ly/3ABFITI"
-locations = ["Paris, Remote (Global)"]
-
 [[engineering]]
 id = "upflow-sse"
 company = "Upflow"

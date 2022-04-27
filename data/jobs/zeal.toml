@@ -1,20 +1,13 @@
-[[design]]
-id = "zeal-pd"
-company = "Zeal"
-title = "Founding Product Designer"
-url = "https://bit.ly/3zzgxjg"
-locations = ["San Francisco", "Remote (US)"]
-
 [[engineering]]
 id = "zeal-sse"
 company = "Zeal"
 title = "Senior Software Engineer"
-url = "https://bit.ly/2XMe4VY"
+url = "https://boards.greenhouse.io/zealcareers/jobs/4157688004"
 locations = ["San Francisco"]
 
 [[product]]
 id = "zeal-pm"
 company = "Zeal"
 title = "Product Manager"
-url = "https://bit.ly/3hZZjW9"
+url = "https://boards.greenhouse.io/zealcareers/jobs/4354758004"
 locations = ["San Francisco"]
