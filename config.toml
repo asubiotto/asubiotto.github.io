@@ -42,8 +42,9 @@ googleAnalytics = "G-4J888DE1QK"
         url = "portfolio/"
         weight = "3"
 
-    [[menu.main]]
-        identifier = "jobs"
-        name = "Jobs"
-        url = "jobs/"
-        weight = "4"
+# Jobs commented out; difficult to keep updated.
+#    [[menu.main]]
+#        identifier = "jobs"
+#        name = "Jobs"
+#        url = "jobs/"
+#        weight = "4"
