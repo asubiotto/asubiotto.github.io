@@ -12,6 +12,6 @@ working on distributed execution engines and performance.
 As an angel investor, I aim to provide as much value as I can. Given my
 engineering/technical background, I can help concretely with:
 - Designing and performing technical interviews.
-- Technical writing in the form of blog posts or documentation. As a tech lead at Cockroach Labs, [writing blog posts was part of my job](https://www.cockroachlabs.com/blog/author/alfonso-subiotto-marques/).
+- Technical writing in the form of blog posts or documentation. Here are some links to blog posts I've written at [Cockroach Labs](https://www.cockroachlabs.com/author/alfonso-subiotto-marques/) and [Polar Signals](https://www.polarsignals.com/blog/authors/alfonso-subiotto-marques).
 - Software architecture reviews including database performance optimization.
 - Growing an engineering organization.
