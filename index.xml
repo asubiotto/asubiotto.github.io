@@ -1,11 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alfonso Subiotto</title><link>http://asubiotto.com/</link><description>Recent content on Alfonso Subiotto</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 23 Sep 2021 10:19:53 +0200</lastBuildDate><atom:link href="http://asubiotto.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Portfolio</title><link>http://asubiotto.com/portfolio/</link><pubDate>Thu, 23 Sep 2021 10:19:53 +0200</pubDate><guid>http://asubiotto.com/portfolio/</guid><description>Brij
-Capbase
-Cortina
-Encore
-Formic
-Privacy Dynamics
-Shabodi
-Upflow
-Zeal</description></item><item><title>Jobs</title><link>http://asubiotto.com/jobs/</link><pubDate>Mon, 13 Sep 2021 17:07:35 +0200</pubDate><guid>http://asubiotto.com/jobs/</guid><description>Looking for a job at an early-stage startup? These are some of the open roles at the companies I have invested in. I&amp;rsquo;ve distilled available roles to avoid overwhelming readers, but feel free to check out each company&amp;rsquo;s website for a full list of available roles.</description></item><item><title>About</title><link>http://asubiotto.com/about/</link><pubDate>Wed, 02 Jun 2021 14:22:59 +0200</pubDate><guid>http://asubiotto.com/about/</guid><description>I invest in developer/data tools and infrastructure either as an angel or via Lorimer Ventures. I was previously a software engineer and tech lead at Cockroach Labs working on distributed execution engines and performance.
-As an angel investor, I aim to provide as much value as I can. Given my engineering/technical background, I can help concretely with:
-Designing and performing technical interviews. Technical writing in the form of blog posts or documentation.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alfonso Subiotto</title><link>http://asubiotto.com/</link><description>Recent content on Alfonso Subiotto</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 23 Sep 2021 10:19:53 +0200</lastBuildDate><atom:link href="http://asubiotto.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Portfolio</title><link>http://asubiotto.com/portfolio/</link><pubDate>Thu, 23 Sep 2021 10:19:53 +0200</pubDate><guid>http://asubiotto.com/portfolio/</guid><description>&lt;p>&lt;a href="https://www.brij.it">Brij&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.capbase.com">Capbase&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.cortinaplatform.com">Cortina&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.encore.dev">Encore&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.formic.co">Formic&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.privacydynamics.io">Privacy Dynamics&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.shabodi.com">Shabodi&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.upflow.io">Upflow&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.zeal.com">Zeal&lt;/a>&lt;/p></description></item><item><title>Jobs</title><link>http://asubiotto.com/jobs/</link><pubDate>Mon, 13 Sep 2021 17:07:35 +0200</pubDate><guid>http://asubiotto.com/jobs/</guid><description>&lt;p>Looking for a job at an early-stage startup? These are some of the open roles at
+the companies I have invested in. I&amp;rsquo;ve distilled available roles to avoid
+overwhelming readers, but feel free to check out each company&amp;rsquo;s website for a
+full list of available roles.&lt;/p>
+&lt;hr></description></item><item><title>About</title><link>http://asubiotto.com/about/</link><pubDate>Wed, 02 Jun 2021 14:22:59 +0200</pubDate><guid>http://asubiotto.com/about/</guid><description>&lt;p>I invest in developer/data tools and infrastructure either as an angel or via
+&lt;a href="https://www.lorimerventures.com">Lorimer Ventures&lt;/a>.
+I was previously a software engineer and tech lead at Cockroach Labs
+working on distributed execution engines and performance.&lt;/p>
+&lt;p>As an angel investor, I aim to provide as much value as I can. Given my
+engineering/technical background, I can help concretely with:&lt;/p>
+&lt;ul>
+&lt;li>Designing and performing technical interviews.&lt;/li>
+&lt;li>Technical writing in the form of blog posts or documentation. Here are some links to blog posts I&amp;rsquo;ve written at &lt;a href="https://www.cockroachlabs.com/author/alfonso-subiotto-marques/">Cockroach Labs&lt;/a> and &lt;a href="https://www.polarsignals.com/blog/authors/alfonso-subiotto-marques">Polar Signals&lt;/a>.&lt;/li>
+&lt;li>Software architecture reviews including database performance optimization.&lt;/li>
+&lt;li>Growing an engineering organization.&lt;/li>
+&lt;/ul></description></item></channel></rss>
