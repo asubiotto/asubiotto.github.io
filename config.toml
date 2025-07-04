@@ -6,6 +6,7 @@ googleAnalytics = "G-4J888DE1QK"
 
 [params]
     homeSubtitle = "Software Engineer & Investor"
+    customCSS = ["/css/custom.css"]
 
     [[params.social]]
         name = "twitter"
@@ -33,11 +34,6 @@ googleAnalytics = "G-4J888DE1QK"
         weight = 1
         identifier = "_home"
         pageRef = "/"
-    [[menu.main]]
-        name = "About"
-        weight = 2
-        identifier = "about"
-        pageRef = "about/"
 
 # Jobs commented out; difficult to keep updated.
 #    [[menu.main]]
