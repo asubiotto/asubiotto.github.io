@@ -35,6 +35,12 @@ googleAnalytics = "G-4J888DE1QK"
         identifier = "_home"
         pageRef = "/"
 
+    [[menu.main]]
+        name = "Writing"
+        weight = 2
+        identifier = "writing"
+        pageRef = "/writing/"
+
 # Jobs commented out; difficult to keep updated.
 #    [[menu.main]]
 #        identifier = "jobs"
