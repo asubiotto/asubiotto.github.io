@@ -4,14 +4,8 @@ date: 2021-06-02T14:22:59+02:00
 draft: false
 ---
 
-I invest in developer/data tools and infrastructure either as an angel or via
-[Lorimer Ventures](https://www.lorimerventures.com).
-I was previously a software engineer and tech lead at Cockroach Labs
-working on distributed execution engines and performance.
+I'm a Staff Software Engineer at [Polar Signals](https://www.polarsignals.com/) working on storage systems for continuous profiling data. My work has ranged from implementing distributed CRDTs to diskless architectures. My recent work includes implementing deterministic simulation testing approaches in Go and Rust, enabling us to reproduce and debug complex distributed system failures with precision.
 
-As an angel investor, I aim to provide as much value as I can. Given my
-engineering/technical background, I can help concretely with:
-- Designing and performing technical interviews.
-- Technical writing in the form of blog posts or documentation. Here are some links to blog posts I've written at [Cockroach Labs](https://www.cockroachlabs.com/author/alfonso-subiotto-marques/) and [Polar Signals](https://www.polarsignals.com/blog/authors/alfonso-subiotto-marques).
-- Software architecture reviews including database performance optimization.
-- Growing an engineering organization.
+Before Polar Signals, I joined [Cockroach Labs](https://www.cockroachlabs.com/) at an early stage. As a software engineer and tech lead on the SQL Execution team, I built and led teams working on the core execution and observability capabilities.
+
+Alongside my engineering work, I'm a Venture Partner at [Lorimer Ventures](https://www.lorimerventures.com), where I invest in developer tools and data infrastructure. I've been fortunate enough to join successful early-stage startups and watch them scale, which gives me both the technical depth and startup experience to partner with founders building the next generation of developer infrastructure.

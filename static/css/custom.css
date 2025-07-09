@@ -1,0 +1,23 @@
+.about-content {
+  max-width: 680px;
+  margin: 2rem auto 0;
+  text-align: left;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 684px) {
+  .about-content {
+    max-width: 100%;
+    margin: 1.5rem auto 0;
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-content {
+    max-width: 90%;
+    margin: 1.75rem auto 0;
+  }
+}

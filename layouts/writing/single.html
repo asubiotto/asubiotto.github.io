@@ -1,0 +1,52 @@
+{{ define "main" }}
+    <main class="post">
+        <article>
+            <h1 class="post-title">{{ .Title | markdownify }}</h1>
+            
+            <div class="post-meta">
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                    {{ if .Site.Params.dateformShort }}
+                        {{ time.Format .Site.Params.dateformShort .Date }}
+                    {{ else }}
+                        {{ time.Format "January 2, 2006" .Date }}
+                    {{ end }}
+                </time>
+                {{ if .Params.originalPost }}
+                    <span class="post-original">
+                        Originally published at <a href="{{ .Params.originalPost.url }}" target="_blank" rel="noopener">{{ .Params.originalPost.site }}</a>
+                    </span>
+                {{ end }}
+            </div>
+
+            {{ if .Params.Cover }}
+                <figure class="post-cover">
+                    <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
+                
+                    {{ if .Params.CoverCaption }}
+                        <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+                    {{ end }}
+                </figure>
+            {{ end }}
+            
+            {{ if .Params.toc }}
+                <hr />
+                <aside id="toc">
+                <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+                    {{ .TableOfContents }}
+                </aside>
+                <hr />
+            {{ end }}
+
+            <div class="post-content">
+                {{ .Content }}
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            {{ partial "tags.html" .Params.tags }}
+            {{ partial "categories.html" . }}
+        </div>
+    </main>
+{{ end }}
