@@ -1,0 +1,40 @@
+{{ define "main" }}
+    <main class="posts">
+        <h1>{{ .Title }}</h1>
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+        <ul class="talks-list">
+            {{ range sort .Data.Pages "Date" "desc" }}
+                <li class="talk-item">
+                    <div class="talk-header">
+                        <span class="talk-title">{{ .Title }}</span>
+                        <span class="talk-meta">
+                            <span class="talk-event">{{ .Params.event }}</span>
+                            <span class="talk-separator">&middot;</span>
+                            <span class="talk-date">
+                                {{ if $.Site.Params.dateformShort }}
+                                    {{ time.Format $.Site.Params.dateformShort .Date }}
+                                {{ else }}
+                                    {{ time.Format "Jan 2, 2006" .Date }}
+                                {{ end }}
+                            </span>
+                        </span>
+                    </div>
+                    <div class="video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/{{ .Params.youtube_id }}{{ with .Params.start }}?start={{ . }}{{ end }}"
+                            title="{{ .Title }}"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </li>
+            {{ end }}
+        </ul>
+    </main>
+{{ end }}
