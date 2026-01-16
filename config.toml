@@ -8,6 +8,9 @@ googleAnalytics = "G-4J888DE1QK"
     homeSubtitle = "Software Engineer & Investor"
     customCSS = ["/css/custom.css"]
 
+    [params.author]
+        name = "Alfonso Subiotto Marqués"
+
     [[params.social]]
         name = "twitter"
         url  = "https://twitter.com/asubiotto"
@@ -40,6 +43,12 @@ googleAnalytics = "G-4J888DE1QK"
         weight = 2
         identifier = "writing"
         pageRef = "/writing/"
+
+    [[menu.main]]
+        name = "Speaking"
+        weight = 3
+        identifier = "speaking"
+        pageRef = "/speaking/"
 
 # Jobs commented out; difficult to keep updated.
 #    [[menu.main]]
